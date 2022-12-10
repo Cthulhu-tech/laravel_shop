@@ -10,8 +10,9 @@
     <link rel="stylesheet" href=@yield('css')>
 </head>
 
+    <x-header.header />
+
     <body>
-        <header class="header"></header>
 
         <x-slider.slider />
 
@@ -21,7 +22,7 @@
         
     </body>
 
-    <footer class="footer"></footer>
+    <x-footer.footer />
 
     @hasSection('js')
         <script src=@yield('js') defer></script>
