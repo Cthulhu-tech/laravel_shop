@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="{{ ('css/global.css') }}">
     <link rel="stylesheet" href="{{ ('css/color.css') }}">
     <link rel="stylesheet" href=@yield('css')>
+    @hasSection('form')
+        @yield('form')
+    @endif
 </head>
 
     <x-header.header />
