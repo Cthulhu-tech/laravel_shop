@@ -1,0 +1,12 @@
+:root {
+    --pink-color: rgb(255, 226, 231);
+    --blue-color: rgb(174, 174, 255);
+    --red-color: rgb(255, 134, 134);
+    --black-color: rgb(23, 23, 23);
+    --yellow-color: rgb(237, 237, 116);
+    --aqua-color: rgb(124,200,191);
+    --white-color: rgb(250, 250, 250);
+
+    --shadow-top: 0px -5px 5px -5px rgba(34, 60, 80, 0.6);
+    --shadow-bottom: 5px 5px 5px -5px rgba(34, 60, 80, 0.6);
+}

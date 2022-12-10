@@ -1,0 +1,10 @@
+@import './slider.css';
+
+.title {
+    padding: 10px;
+    text-align: center;
+    color: var(--blue-color);
+    font-size: clamp(28px, 10em, 96px);
+    text-shadow:    8px 6px 3px var(--black-color),
+                    8px 6px 3px var(--black-color);
+}
